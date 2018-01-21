@@ -1,0 +1,14 @@
+Man måste ha Original OneWire biblioteket till NodeMCU versionen.
+
+Den kommer inte compilera eller funka med No-PullUp biblioteket.
+
+C:\Users\Kenny\Documents\Arduino\libraries\OneWire (finns i zip-filen där om det är det andra biblioteket som används)
+Läste på nätet att one-wire bibblan ska vra en speciell för ESP8266, kanske är det jag har? Den kompilerar i alla fall.
+
+Om denna ligger där så kommer inte det funka för NodeMCU, No resistor är till för noresistor-programmet för "min temperaturmätare" osv
+C:\Users\Kenny\Documents\Arduino\libraries\OneWireNoResistor-1.0 
+
+Men jag har ingen pull-up resistor på min och det funkar ändå. Jag är inte helt säker på att det är den här koden som körs dock. Så testa inte på den som funkar.
+Testa på en ny nodemcu ifall man verkligen slipper 4,7k resistorn.
+
+Kolla den hittade laptopen och se vad för bibliotek du använt till one wire och hur koden ser ut.
